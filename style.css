@@ -5,12 +5,134 @@ Header Text - #553100
 Main background - #D4A76A*/
 
 
-header {
+.top-header {
     background-color: #FFDBAA;
+    height: 150px;
+    border-bottom: 2px solid black;
+}
+
+.top-buttons {
+    height: 85px;
+    width: 150px;
+    margin-right: 75px;
+    font-size: 27px;
+    font-weight: bold;
+    background-color: #805215;
+    border: none;
+}
+
+.top-buttons a{
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color:#553100;
+    font-family: sans-serif;
+    font-size: 3rem;
+    padding-left: 50px;
+    float: left;
+    letter-spacing: 3px;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size:2rem;
+    margin-bottom: 0.3rem;
+}
+
+nav {
+    float: inline-end;
+    padding-top: 25px;
+}
+
+.box-container {
+    gap: 2rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid white;
+    background-color:white;
+    align-items: center;
     padding: 1rem;
-    width: 100vw;
+    width: 25%;
+}
+
+.box-title {
+    text-align: center;
+}
+
+.box-content {
+    font-size: 200%;
+    text-align: left;
+    margin-left: 10px;
+    font-family: sans-serif;
+    margin-top: 5%;
+}
+
+.box-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #805215;
+    color: white;
+    border: 2px solid black;
+    font-size: 200%;
+    text-decoration: none;
+    height: 75px;
+    width: 95%;
 }
 
 body {
-    background-color: #D4A76A
+    background-color: #D4A76A;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-box-container {
+    gap: 2rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid white;
+    background-color:white;
+    align-items: center;
+    padding: 1rem;
+    width: 95%;
+}
+
+.footer-box-content {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+    font-family: sans-serif;
+    margin-top: 1%;
+}
+
+.footer-box-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #805215;
+    color: white;
+    border: 2px solid black;
+    font-size: 200%;
+    text-decoration: none;
+    height: 75px;
+    width: 95%;
 }
